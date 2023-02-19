@@ -1,0 +1,13 @@
+{
+  "name": "win-res-translator",
+  "type": "module",
+  "version": "1.0.0",
+  "dependencies": {
+    "node-fetch": "^3.3.0",
+    "pegjs": "^0.10.0",
+    "string-replace-async": "^3.0.2"
+  },
+  "scripts": {
+    "build": "pegjs -o rc_parser.js rc_parser.pegjs"
+  }
+}

@@ -1,0 +1,7 @@
+.idea
+*.iml
+*.rc
+*.dll
+*.res
+
+node_modules
